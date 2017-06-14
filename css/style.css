@@ -1,0 +1,295 @@
+
+body {
+    font-size: 16px;
+    text-align: center;
+    line-height: 0.8;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #fff;
+    background: #2d2b30;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 22px;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+a:hover, a:focus {
+    outline: 2px solid hsla(356, 100%, 48%, 0.8);
+}
+
+h1 {
+    font-size: 22px;
+    color: hsla(267, 60%, 100%, 0.8);
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgba(255, 165, 177, 0.9);
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: hsla(237, 100%, 90%, 0.8);
+}
+
+footer, header, main, menu, nav {
+    display: block;
+}
+
+nav {
+    width: 100%;
+    background: rgba(45, 43, 48, 0.8);
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+    display: block;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li:first-child {
+    display: block;
+    margin-right: auto;
+    color: hsla(237, 100%, 90%, 0.8);
+    letter-spacing: 5px;
+}
+
+.nav li {
+    padding: 5px 10px 10px 10px;
+
+}
+
+.nav a {
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    font-size: 18px;
+    color: hsla(888, 66%, 55%, 0.8);
+    cursor: pointer;
+}
+
+.nav a:hover a:focus {
+    color: #ffffff;
+}
+
+header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    background: url("../img/concert02_no_text.jpg") no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    height: 350px;
+}
+
+header h1,
+header h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 58px;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    color: #2d2b30;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+header h1:after, header h2:after {
+    content: '\00a0\00a0\00a0|';
+    color: firebrick;
+    font-weight: bolder;
+}
+
+header h1:before, header h2:before {
+    content: '|\00a0\00a0\00a0';
+    color: firebrick;
+    font-weight: bolder;
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: #2d2b30;
+}
+
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+}
+
+footer h4 {
+    top: -8px;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer a.social {
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    display: inline-block;
+    margin-left: 5px;
+    width: 110px;
+    height: 30px;
+    cursor: pointer;
+    opacity: .4;
+}
+
+footer a.social p {
+    color: #91DC5A;
+    margin-top: -90px;
+    font-size: 14px;
+    width: 60px;
+}
+
+footer a.social:hover {
+    opacity: 1;
+}
+
+footer::after {
+    clear: both;
+    content: '';
+}
+
+.social-svg {
+    transition: all .5s ease;
+}
+
+.social-svg:hover,
+.social-svg:focus {
+    opacity: 1;
+
+
+    transform: translate(26px, 5px) scale(1.089, 1.089);
+    -webkit-transform: translate(26px, 5px) scale(1.089, 1.089);
+    -moz-transform: translate(26px, 5px) scale(1.089, 1.089);
+    -o-transform: translate(26px, 5px) scale(1.089, 1.089);
+    -ms-transform: translate(26px, 5px) scale(1.089, 1.089);
+
+
+
+
+
+
+
+}
+
+.photo {
+    width: 30%;
+    margin: 20px 30px;
+}
+
+.information {
+    text-align: left;
+}
+
+.card {
+    transition: border-color 500ms;
+    margin: 30px;
+    padding: 20px 40px 40px;
+    text-align: left;
+    border-top: 4px solid rgba(468, 111, 240, 0.9);
+    clear: both;
+}
+
+.card:hover {
+    border-color: #ffffff;
+}
+
+.card p {
+    padding: 10px 0 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    color: rgba(108, 170, 698, 0.9);
+}
+
+.card a:hover {
+    color: rgba(148, 180, 255, 0.9);
+}
+
+/** Media querys **/
+@media (min-width: 768px) {
+    header {
+        min-height: 470px;
+    }
+
+    main {
+        padding-top: 20px;
+    }
+
+    footer {
+        font-size: 1.3em;
+        max-width: 1200px;
+        margin: 40px auto;
+    }
+
+    .nav {
+        max-width: 1200px;
+        padding: 0 30px;
+    }
+
+    .card {
+        margin: 40px auto;
+        padding: 20px 40px 40px;
+        width: 80%;
+        max-width: 1000px;
+    }
+
+    .flex {
+        display: -ms-flexbox;
+        /* TWEENER - IE 10 */
+        display: flex;
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+    }
+
+    .flex .photo {
+        width: 30%;
+        margin: 20px 30px;
+    }
+
+    .information {
+        text-align: left;
+    }
+}

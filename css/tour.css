@@ -1,0 +1,60 @@
+.flex h3 {
+  display:inline;
+  padding-top:20px;
+}
+.flex h3:before {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  padding-top:10px;
+  background: url("../img/guitar_pick_color.png") no-repeat 0 0;
+  content: '';
+  background-size: 100%;
+}
+.flex h3:after {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  padding-top:10px;
+  background: url("../img/guitar_pick_color.png") no-repeat 0 0;
+  content: '';
+  background-size: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 5px;
+  border: 1px solid #ab4a00;
+  color: rgba(236,575,678, 0.7)
+}
+
+table tr th {
+  padding: 10px 10px 10px 15px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #2abb9b;
+  font-size: 1.375em;
+}
+table th tr, td {
+  padding: 5px 20px 5px 15px;
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+  border-bottom: 1px solid #ab4a00;
+}
+
+
+caption {
+  padding-bottom:15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background: rgba(85, 21, 0, 0.4);
+}
+td {
+  height: 30px;
+  margin:50px;
+}
